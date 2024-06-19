@@ -11,6 +11,6 @@ function formatDuration($seconds)
 
     return "$formattedHours:$formattedMinutes:$formattedSeconds";
 }
-$durasi = 3661; // dalam detik
+$durasi = 3661; // detik
 echo formatDuration($durasi); // Output: "01:01:01"
 ?>
